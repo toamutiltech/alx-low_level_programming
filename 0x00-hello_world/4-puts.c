@@ -1,11 +1,12 @@
 #include <stdio.h>
-/* Making Use of Puts Function */
 /**
- * Introduction to Puts Function
+ * main - Introduction to Puts Function
+ * puts - print statment
+ * Return: 0 parameters
+ *
  */
 int main(void)
 {
-	/* Puts Function*/
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
