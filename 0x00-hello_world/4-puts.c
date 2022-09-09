@@ -1,5 +1,8 @@
 #include <stdio.h>
 /* Making Use of Puts Function */
+/**
+ * Introduction to Puts Function
+ */
 int main(void)
 {
 	/* Puts Function*/
