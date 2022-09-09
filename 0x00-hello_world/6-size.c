@@ -2,25 +2,20 @@
 /**
  * main - Introduction to sizeof Function
  * printf - print size of the varaibles
- * @inttype: integer
- * @chartype: Charaters
- * @longint_type: long integer
- * @lonint2_type: longest integer
- * @float_type: float integer
  * Return: 0 parameters
  *
  */
 int main(void)
 {
-	int inttype;
-	char chartype;
-	long int longint_type;
-	long long int longint2_type;
-	float float_type;	
-	printf("Size of char: %zu byte(s)\n", sizeof(chartype));
-	printf("Size of int: %zu byte(s)\n", sizeof(inttype));
-	printf("Size of long int: %zu byte(s)\n", sizeof(longint_type));
-	printf("Size of long long int: %zu byte(s)\n", sizeof(longint2_type));
-	printf("Size of float: %zu byte(s)\n", sizeof(float_type));
+	printf("Size of char: %zu byte(s)\n", sizeof(char));
+	printf("Size of int: %zu byte(s)\n", sizeof(int));
+	printf("Size of long int: %zu byte(s)\n", sizeof(long int));
+	printf("Size of long long int: %zu byte(s)\n", sizeof(long long int));
+	printf("Size of float: %zu byte(s)\n", sizeof(float));
+	printf("Size of char: %zu byte(s)\n", sizeof(char *));
+	printf("Size of int: %zu byte(s)\n", sizeof(int *));
+	printf("Size of long int: %zu byte(s)\n", sizeof(long int *));
+	printf("Size of long long int: %zu byte(s)\n", sizeof(long long int *));
+	printf("Size of float: %zu byte(s)\n", sizeof(float *));
 	return (0);
 }
