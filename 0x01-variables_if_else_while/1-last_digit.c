@@ -20,9 +20,7 @@ int main(void)
 
 	n = rand() - RAND_MAX / 2;
 
-	while (lastDigit = n % 10)
-	{
-
+	lastDigit = n % 10;
 	if (n > 5)
 	{
 		printf("Last digit of %d is %d and is greater than 5\n", n, lastDigit);
@@ -38,7 +36,6 @@ int main(void)
 	else
 	{
 		printf("%d is less than 0\n", n);
-	}
 	}
 	return (0);
 }
