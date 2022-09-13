@@ -6,7 +6,7 @@
 /**
  *  * main - if else statement to test for negativity or positivity
  *  * srand - pick random numbers
- *  * @n: operand where calculation are pass to
+ *  * @n: The number to be checked
  *  * @n: integar
  *  * if else: to test for positivity or negativity
  *  * printf - print statment
@@ -14,6 +14,7 @@
  */
 int main(void)
 {
+	/*Declearing variable n */
 	int n = 0;
 
 	srand(time(0));
