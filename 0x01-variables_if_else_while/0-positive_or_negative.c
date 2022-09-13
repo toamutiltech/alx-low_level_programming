@@ -4,16 +4,17 @@
 /* more headers goes there */
 
 /**
- *  * main - Introduction to Printf Function
+ *  * main - if else statement to test for negativity or positivity
  *  * srand - pick random numbers
  *  * @n: operand where calculation are pass to
+ *  * @n: integar
  *  * if else: to test for positivity or negativity
  *  * printf - print statment
  *  * Return: 0 parameters
  */
 int main(void)
 {
-	int n;
+	int n = 0;
 
 	srand(time(0));
 
@@ -29,7 +30,7 @@ int main(void)
 	}
 	else
 	{
-		printf("%d is nagative\n", n);
+		printf("%d is negative\n", n);
 	}
 	return (0);
 }
