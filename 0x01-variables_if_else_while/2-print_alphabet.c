@@ -10,7 +10,15 @@ int main(void)
 {
 	int c = 97;
 	while (c <= 122)
+	{
 		putchar(c);
-	c++;
+		++c;
+	}
+	int C = 65;
+	while (C <= 90)
+	{
+		putchar(C);
+		++C
+	}
 	return (0);
 }
