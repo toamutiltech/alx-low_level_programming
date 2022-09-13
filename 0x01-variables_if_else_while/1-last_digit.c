@@ -14,7 +14,7 @@ int main(void)
 {
 	/*Declearing variable n */
 	int n = 0;
-	int lastDigit = 0;
+	int l = 0;
 
 	srand(time(0));
 
