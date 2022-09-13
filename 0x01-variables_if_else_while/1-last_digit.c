@@ -19,19 +19,19 @@ int main(void)
 
 	n = rand() - RAND_MAX / 2;
 
+	lastDigit = n % 10;
+
 	if (n > 5)
 	{
-		lastDigit = n % 10;
-		printf("Last digit of %d is %d and is greater than 5\n", n, lastDigit);
+		printf("Last digit of %d", LastDigit, " is %d and is greater than 5\n", n);
 	}
 	else if (n == 0)
 	{
-		lastDigit = n % 10;
-		printf("Last digit of %d is %d and is 0\n", n, lastDigit);
+		printf("Last digit of %d", lastDigit, " is %d and is 0\n", n);
 	}
 	else if (n > 0 && n < 6)
 	{
-		printf("Last digit of %d is %d and is les than 6 and not 0\n", n, lastDigit);
+		printf("Last digit of %d", lastDigit, " is %d and is less than 6 and not 0\n", n);
 	}
 	else
 	{
