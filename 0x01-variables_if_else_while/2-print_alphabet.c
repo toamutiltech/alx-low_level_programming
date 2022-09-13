@@ -8,7 +8,9 @@
  */
 int main(void)
 {
-	for (int c = 97; c <= 122; ++c)
+	int c;
+
+	for (c = 97; c <= 122; ++c)
 		putchar("%c ", c);
 	putchar("\n");
 	return (0);
