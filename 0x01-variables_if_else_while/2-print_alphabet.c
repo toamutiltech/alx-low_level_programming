@@ -8,10 +8,10 @@
  */
 int main(void)
 {
-	int c;
-
-	for (c = 97; c <= 122; ++c)
+	int c = 97;
+	while (c <= 122)
 		putchar(c);
+	c++;
 	putchar("\n");
 	return (0);
 }
