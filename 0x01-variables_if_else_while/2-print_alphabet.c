@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	int c;
+	char c;
 
 	for (c = 97; c <= 122; ++c)
 		putchar("%c ", c);
