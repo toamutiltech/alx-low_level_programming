@@ -6,8 +6,6 @@
 /**
  *  * main - if else statement to test for negativity or positivity
  *  * srand - pick random numbers
- *  * @n: The number to be checked
- *  * @n: integar
  *  * if else: to test for positivity or negativity
  *  * printf - print statment
  *  * Return: 0 parameters
