@@ -1,14 +1,11 @@
 #include "main.h"
-
 /**
  * more_numbers - prints numbers
  * Return:0
  */
-
 void more_numbers(void)
 {
 	char n, c;
-
 	int i = 0;
 
 	while (n < 10)
