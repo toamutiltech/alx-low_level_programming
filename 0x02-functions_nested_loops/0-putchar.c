@@ -3,13 +3,20 @@
 /* more headers goes there */
 
 /**
- * main - if else statement to test for negativity or positivity
- * srand - pick random numbers
- * if else: to test for positivity or negativity
- * printf - print statment
+ * main - To print _putchar
  * Return: 0 parameters
  */
 int main(void)
 {
-	_putchar(d);
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+
+	return (0);
 }
