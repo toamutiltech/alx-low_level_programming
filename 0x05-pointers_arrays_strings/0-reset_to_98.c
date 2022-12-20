@@ -4,8 +4,8 @@
  * @n: the number to change
  */
 
-void reset_to_98(int *n)
+void reset_to_98(int *p)
 {
-	n = &n;
+	p = &n;
 	*n = 98;
 }
